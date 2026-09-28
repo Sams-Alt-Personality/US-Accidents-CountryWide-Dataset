@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local settings
+.env
+*.token
+secrets.json
+kaggle.json
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary logs
+*.log
+
+# Large dataset files (document the source in README instead)
+dataset/
+US_Accidents*.csv
+*.zip
+
+# Saved models (GitHub rejects files over 100 MB)
+*.pkl
+*.joblib
+
+# Saved models can be very large (GitHub rejects files over 100 MB).
+# Uncomment if best_model.pkl is too big to commit:
+# *.pkl
