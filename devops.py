@@ -198,7 +198,7 @@ print(y_test.value_counts(normalize=True))
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 
-rf = RandomForestClassifier(n_estimators=100, max_depth=None, random_state=42, n_jobs=-1)
+rf = RandomForestClassifier(n_estimators=200, max_depth=10, random_state=42, n_jobs=-1)
 rf.fit(X_train, y_train)
 
 # XGBoost needs labels starting at 0, not 1
